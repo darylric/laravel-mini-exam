@@ -1,6 +1,7 @@
 <?php
 
 
+use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Api\PostController;
 use Illuminate\Support\Facades\Route;
@@ -12,3 +13,9 @@ Route::apiResource('posts', PostController::class)->names([
     'update' => 'api.posts.update',
     'destroy' => 'api.posts.destroy',
 ]);
+
+
+
+
+Route::get('users/{user}/posts', [UserController::class, 'userPosts'])
+    ->name('api.users.posts');

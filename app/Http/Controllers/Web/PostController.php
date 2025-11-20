@@ -25,7 +25,7 @@ class PostController extends Controller
 
     public function userPosts(User $user)
     {
-        $posts = $user->posts()->latest()->get();
+        $posts = $user->posts()->latest()->paginate(5);
         return view('posts.user_posts', compact('user', 'posts'));
     }
 
