@@ -1,4 +1,4 @@
-# Laravel Mini-Exam — User & Posts One-to-Many Relationship
+<img width="842" height="723" alt="image" src="https://github.com/user-attachments/assets/303f5dec-6084-4e94-97e0-0c46d7157bc0" /># Laravel Mini-Exam — User & Posts One-to-Many Relationship
 
 This project implements a simple blog-style system demonstrating a **one-to-many Eloquent relationship** where:
 
@@ -49,5 +49,5 @@ All Blade files extend the default `layouts.app` from laravel/ui and use Bootstr
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/laravel-mini-exam.git
+git clone https://github.com/darylric/laravel-mini-exam.git
 cd laravel-mini-exam
