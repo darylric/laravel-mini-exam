@@ -46,8 +46,26 @@ All Blade files extend the default `layouts.app` from laravel/ui and use Bootstr
 
 ## 📦 Installation & Setup
 
-### 1. Clone the repository
-
-```bash
+1. Clone the repository
 git clone https://github.com/darylric/laravel-mini-exam.git
 cd laravel-mini-exam
+
+2. Install backend dependencies
+composer install
+
+3. Install frontend dependencies
+npm install
+npm run build
+
+4. Create environment file
+cp .env.example .env
+Update .env with your database credentials.
+
+5. Generate app key
+php artisan key:generate
+
+6. Run migrations
+php artisan migrate
+
+7. Start the server
+php artisan serve
