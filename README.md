@@ -1,4 +1,4 @@
-<img width="842" height="723" alt="image" src="https://github.com/user-attachments/assets/303f5dec-6084-4e94-97e0-0c46d7157bc0" /># Laravel Mini-Exam — User & Posts One-to-Many Relationship
+# Laravel Mini-Exam — User & Posts One-to-Many Relationship
 
 This project implements a simple blog-style system demonstrating a **one-to-many Eloquent relationship** where:
 
